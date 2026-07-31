@@ -1,0 +1,50 @@
+{
+  "features": [
+    "scl_mean",
+    "scl_std",
+    "scr_count",
+    "scr_amp_mean",
+    "phasic_energy",
+    "acc_mag_std",
+    "acc_movement",
+    "hrv_mean_rr",
+    "hrv_sdnn",
+    "hrv_rmssd",
+    "hrv_pnn50",
+    "temp_mean"
+  ],
+  "n_features": 12,
+  "classes": {
+    "0": "baseline",
+    "1": "stress"
+  },
+  "normalization": "z-score intra-subject (aplicado antes del entrenamiento)",
+  "models": {
+    "RF": {
+      "type": "RandomForestClassifier",
+      "n_estimators": 200,
+      "class_weight": "balanced"
+    },
+    "SVM": {
+      "type": "SVC (rbf, C=1.0) con RobustScaler",
+      "kernel": "rbf",
+      "C": 1.0,
+      "gamma": "scale"
+    },
+    "ANN": {
+      "type": "MLPClassifier con RobustScaler",
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "activation": "relu",
+      "n_iter": 34,
+      "best_validation_score": 0.9645
+    },
+    "XGBoost": {
+      "type": "XGBClassifier",
+      "n_estimators": 200,
+      "max_depth": 4
+    }
+  }
+}

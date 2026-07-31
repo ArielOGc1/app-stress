@@ -1,0 +1,28 @@
+# Dataset WESAD (19G, descargable de nuevo desde uni-siegen.sciebo.de, ver CLAUDE.md)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+
+# Conda / venv
+.venv/
+venv/
+env/
+
+# Jupyter
+.jupyter/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp

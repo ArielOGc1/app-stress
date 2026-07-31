@@ -1,0 +1,13 @@
+feature,importance
+phasic_energy,2.729959
+temp_mean,1.4435112
+scl_mean,1.3195428
+hrv_mean_rr,1.0098933
+hrv_sdnn,0.5273315
+scr_count,0.20370418
+acc_mag_std,0.17777786
+hrv_rmssd,0.17205365
+hrv_pnn50,0.16591333
+acc_movement,0.14635248
+scr_amp_mean,0.107034534
+scl_std,0.04468484
