@@ -32,7 +32,7 @@ echo "╚═══════════════════════�
 echo ""
 
 # Generar QR con la URL del servidor
-/home/ariel/miniconda3/envs/tesis/bin/python3 -c "
+conda run -n tesis python3 -c "
 import qrcode, sys
 q = qrcode.QRCode(
     error_correction=qrcode.constants.ERROR_CORRECT_L,
