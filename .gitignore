@@ -1,4 +1,4 @@
-# Dataset WESAD (19G, descargable de nuevo desde uni-siegen.sciebo.de, ver CLAUDE.md)
+# Dataset WESAD (~19 GB, descargar desde la fuente oficial — ver README)
 data/
 
 # Python
@@ -20,7 +20,7 @@ env/
 .idea/
 .claude/settings.local.json
 
-# Guía interna de Claude Code (no destinada al repo público)
+# Notas internas (no destinadas al repo público)
 CLAUDE.md
 
 # OS

@@ -61,7 +61,7 @@ See [`app/README.md`](app/README.md) for full setup instructions (backend, Flutt
 ## Repository structure
 
 ```
-tesis_1/
+app-stress/
 ├── app/                  Flutter mobile app + FastAPI backend
 ├── pipeline/             Preprocessing, feature extraction, LOSO, ablation, SHAP
 ├── scripts/              CLI entry points (run_eda, run_pipeline, run_ablation,

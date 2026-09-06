@@ -25,7 +25,7 @@ Aplicación móvil Flutter + backend Python FastAPI para clasificación automát
 # Instalar dependencias
 conda run -n tesis pip install fastapi "uvicorn[standard]" python-multipart aiofiles
 
-# Iniciar el servidor (desde la raíz de tesis_1/)
+# Iniciar el servidor (desde la raíz de app-stress/)
 conda run -n tesis uvicorn app.backend.main:app --host 0.0.0.0 --port 8000
 
 # Verificar

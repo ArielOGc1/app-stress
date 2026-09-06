@@ -61,7 +61,7 @@ Ver [`app/README.md`](app/README.md) para las instrucciones completas de instala
 ## Estructura del repositorio
 
 ```
-tesis_1/
+app-stress/
 ├── app/                  App móvil Flutter + backend FastAPI
 ├── pipeline/             Preprocesamiento, extracción de features, LOSO, ablación, SHAP
 ├── scripts/              Puntos de entrada CLI (run_eda, run_pipeline, run_ablation,
